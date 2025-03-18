@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<struts-config>
+		<action-mappings>
+				<action path="/switch" type="org.apache.struts.actions.SwitchAction"/>
+				<action path="/home" forward="/home.jsp"/>
+				
+		</action-mappings>
+</struts-config>

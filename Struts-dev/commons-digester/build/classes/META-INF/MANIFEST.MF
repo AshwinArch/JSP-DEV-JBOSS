@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Implementation-Vendor: "Apache Software Foundation"
+Implementation-Title: "org.apache.commons.digester"
+Implementation-Version: "1.5"
+Specification-Vendor: "Apache Software Foundation"
+Created-By: Apache Ant 1.5.1
+Specification-Title: "Jakarta Commons Digester"
+Specification-Version: "1.5"
+Extension-Name: org.apache.commons.digester
+

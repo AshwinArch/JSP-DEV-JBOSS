@@ -1,0 +1,20 @@
+<struts-config>
+		
+		<form-beans>
+    			<form-bean name="login" type="com.ash.loginform"/>
+		</form-beans>
+		
+		<action-mappings>
+				<action path="/welcome" forward="/home.jsp"/>
+		</action-mappings>	
+		
+		<action-mappings>
+				<action path="/login" name="login" type="com.ash.login">
+				<forward name="success" path="/success.html"/>
+				<forward name="failure" path="/failure.html"/>
+				</action>
+		</action-mappings>	
+		
+		<message-resources parameter="english.messages"/>
+
+</struts-config>

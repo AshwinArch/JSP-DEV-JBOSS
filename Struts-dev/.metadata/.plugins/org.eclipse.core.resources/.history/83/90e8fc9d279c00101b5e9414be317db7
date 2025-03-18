@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?> 
+<!DOCTYPE struts-config PUBLIC 
+"-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" 
+"http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd"> 
+<struts-config>
+				
+				<data-sources>
+
+  <data-source key="orcl">
+
+     <!-- <set-property
+
+        property="autoCommit"
+
+        value="false"/>
+
+     <set-property
+
+        property="description"
+
+        value="Example Data Source Configuration"/>-->
+ 
+       <set-property
+
+        property="driverClass"
+
+        value="oracle.jdbc.driver.OracleDriver"/>
+
+     <set-property
+
+        property="maxCount"
+
+        value="10"/>
+
+     <set-property
+
+        property="minCount"
+
+        value="2"/>
+
+     <set-property
+
+        property="password"
+
+        value="123"/>
+
+     <set-property
+
+        property="url"
+
+        value="jdbc:oracle:thin:@localhost:1521:XE"/>
+
+     <set-property
+
+        property="user"
+
+        value="scott"/>
+
+   </data-source>
+ </data-sources>
+				
+		<form-beans>
+    			<form-bean name="login" type="com.ash.loginform"/>
+    			<form-bean name="regis" type="com.ash.RegForm"/>
+		</form-beans>
+	
+		<action-mappings>
+				<action path="/welcome" forward="/home.jsp"/>
+		
+				<action path="/login" name="login" type="com.ash.login">
+					<forward name="success" path="/success.html"/>
+					<forward name="failure" path="/failure.html"/>
+				</action>
+		
+				<action path="/reg" name="regis"  type="com.ash.RegAction" >
+				<forward name="success" path="/success.html"/>
+				<forward name="failure" path="/failure.html"/>
+				</action>
+	
+		</action-mappings>
+		<message-resources parameter="english.messages"/>
+		
+</struts-config>

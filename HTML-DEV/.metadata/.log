@@ -1,0 +1,13 @@
+!SESSION 2011-01-15 19:49:27.156 -----------------------------------------------
+eclipse.buildId=M20090917-0800
+java.version=1.6.0_17
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.osgi 2 1 2011-01-15 19:50:06.110
+!MESSAGE NLS unused message: contextRootLabelInvalid in: org.eclipse.jst.servlet.ui.project.facet.WebFacetInstallPage
+
+!ENTRY org.eclipse.osgi 2 1 2011-01-15 19:50:06.110
+!MESSAGE NLS unused message: contentDirLabelInvalid in: org.eclipse.jst.servlet.ui.project.facet.WebFacetInstallPage

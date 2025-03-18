@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1308675553864_1" label="sreuts" name="sreuts">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Ashwin_final" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/Ashwin_nur1.1" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1296678677363_0" label="Window Working Set" name="Aggregate for window 1296678677363"/>
+<mruList name="sreuts"/>
+</workingSetManager>

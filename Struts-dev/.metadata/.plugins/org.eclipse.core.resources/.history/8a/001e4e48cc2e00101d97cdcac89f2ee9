@@ -1,0 +1,7 @@
+<form action="login.do">
+	Username:
+	<input type="text" name="username"><br></input>
+	Password:
+	<input type="password" name="password"><br></input>
+	<input type="submit" value="submit"><br></input>
+</form>

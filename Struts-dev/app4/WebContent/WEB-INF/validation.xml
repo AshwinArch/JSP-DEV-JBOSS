@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+
+<!DOCTYPE form-validation PUBLIC
+          "-//Apache Software Foundation//DTD Commons Validator Rules Configuration 1.0//EN"
+          "http://jakarta.apache.org/commons/dtds/validator_1_0.dtd">
+
+<form-validation>
+
+<!--
+     This is a blank Validator form file with a commented examples.
+-->
+
+    <global>
+
+        <!-- An example global constant
+        <constant>
+            <constant-name>postalCode</constant-name>
+            <constant-value>^\d{5}\d*$</constant-value>
+        </constant>
+        end example-->
+
+    </global>
+
+    <formset>
+        <form name="testRequest">
+        
+        	<field property="birthDate"
+                          depends="required, date">
+                   <arg0 key="test.date" />
+                  <var>
+                     <var-name>datePattern</var-name>
+                     <var-value>MM-dd-yyyy</var-value>
+                  </var>
+              </field>
+        	
+        	<field property="email"
+                          depends="required,email">
+                   <arg0 key="test.email" />
+            </field>
+
+            <field property="creditCard"
+                          depends=" required, creditCard">
+                   <arg0 key="test.creditCard" />
+            </field>
+        	
+        
+            <field
+                property="param"
+                depends="required, minlength, maxlength, mask ">
+                    <arg0 key="test.param"/>
+                    <arg1 key="${var:minlength}" name="minlength" resource="false"/>
+                    <arg1 key="${var:maxlength}" name="maxlength" resource="false"/>
+                    	<var>
+                    		<var-name>minlength</var-name>
+                    		<var-value>5</var-value>
+                    	</var>
+                    	<var>
+                    		<var-name>maxlength</var-name>
+                    		<var-value>15</var-value>
+                    	</var>
+                   		<var>
+                    		<var-name>mask</var-name>
+                    		<var-value>^[a-zA-Z_$]{1}[a-zA-Z0-9]*$</var-value>
+                    	</var>
+             </field>
+        
+        </form>
+     
+     </formset>
+
+    <!-- An example formset for another locale
+    <formset language="fr">
+
+        <constant>
+            <constant-name>postalCode</constant-name>
+            <constant-value>^[0-9a-zA-Z]*$</constant-value>
+        </constant>
+
+   </formset>
+   -->
+
+</form-validation>

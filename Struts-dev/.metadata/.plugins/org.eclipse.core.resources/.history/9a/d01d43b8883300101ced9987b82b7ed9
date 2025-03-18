@@ -1,0 +1,5 @@
+<struts-config>
+		
+
+		<message-resources parameter="english.messages"/>
+</struts-config>

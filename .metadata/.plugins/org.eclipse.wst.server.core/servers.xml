@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<servers>
+  <server hostname="localhost" id="JBoss v4.0 at localhost" name="JBoss v4.0 at localhost" runtime-id="JBoss v4.0" server-type="org.eclipse.jst.server.generic.jboss4" server-type-id="org.eclipse.jst.server.generic.jboss4" start-timeout="50" stop-timeout="15" timestamp="8">
+    <map jndiPort="1099" key="generic_server_instance_properties" port="6060" serverAddress="127.0.0.1" serverConfig="default"/>
+    <list key="modules" value0="App::org.eclipse.jst.j2ee.server:App::jst.web::2.4" value1="app3::org.eclipse.jst.j2ee.server:app3::jst.web::2.4"/>
+    <list key="Generic_Server_Modules_List" value0="org.eclipse.jst.j2ee.server:App" value1="org.eclipse.jst.j2ee.server:app3"/>
+  </server>
+  <server auto-publish-setting="2" auto-publish-time="1" configuration-id="/Servers/Tomcat v5.5 Server at localhost-config" deployDir="wtpwebapps" hostname="localhost" id="Tomcat v5.5 Server at localhost" name="Tomcat v5.5 Server at localhost" runtime-id="Apache Tomcat v5.5" server-type="org.eclipse.jst.server.tomcat.55" server-type-id="org.eclipse.jst.server.tomcat.55" start-timeout="45" stop-timeout="15" testEnvironment="true" timestamp="21">
+    <list key="modules" value0="DataBrowserClient::org.eclipse.jst.j2ee.server:DataBrowserClient::jst.web::2.4" value1="app4::org.eclipse.jst.j2ee.server:app4::jst.web::2.4"/>
+  </server>
+</servers>

@@ -1,0 +1,18 @@
+# -- standard errors --
+errors.header=<UL>
+errors.prefix=<LI>
+errors.suffix=</LI>
+errors.footer=</UL>
+
+#--------form properties------
+welcome.key=Login page!
+welcome.uname= Username
+welcome.pword= Password
+reg.title=Registration
+reg.username=Username
+reg.password=Password
+reg.gender=Gender
+reg.skills=Skills
+reg.qualification=Qualification
+reg.submit=Submit
+reg.reset=Reset

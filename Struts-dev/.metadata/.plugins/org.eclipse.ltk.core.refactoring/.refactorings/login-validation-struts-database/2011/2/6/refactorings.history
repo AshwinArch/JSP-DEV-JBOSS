@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;login-validation-struts-database/src/com/ash/LoginAction.java&apos; to &apos;LoginForm.java&apos;" description="Rename resource &apos;LoginAction.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/com/ash/LoginAction.java" name="LoginForm.java" stamp="1296850419152" updateReferences="true"/>
+</session>

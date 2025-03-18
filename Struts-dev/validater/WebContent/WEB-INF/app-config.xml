@@ -1,0 +1,29 @@
+<struts-config>
+
+	<form-beans>
+		<form-bean name="loginRequest" type="com.lara.LoginForm"/>
+	</form-beans>
+
+
+	<action-mappings> 
+	
+		<action path="/login" name="loginRequest" input="/login.jsp" type="com.lara.LoginAction" >
+			<forward name="success" path="/success.jsp"/>
+		</action>
+				
+				
+				<action path="/test" name="testRequest" type="com.lara.TestAction" ></action>
+	</action-mappings>
+
+
+	<message-resources parameter="english.messages"/>
+	
+	
+	  <plug-in className="org.apache.struts.validator.ValidatorPlugIn">
+	    <set-property
+	        property="pathnames"
+	        value="/WEB-INF/validator-rules.xml,/WEB-INF/validation.xml"/>
+	  </plug-in>
+
+
+</struts-config>

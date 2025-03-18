@@ -1,0 +1,30 @@
+<taglib>
+	<jsp-version>2.0</jsp-version>
+	<tlib-version>1.0</tlib-version>
+	<uri>http://myTags.com</uri>
+	<tag>
+		<name>dataTable</name>
+		<tag-class>com.ash.DataTableTag</tag-class>
+		<attribute>
+			<name>className</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<name>url</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<name>user</name>
+			<required>true</required>
+		</attribute>
+				<attribute>
+			<name>password</name>
+			<required>true</required>
+		</attribute>		
+				<attribute>
+			<name>table</name>
+			<required>true</required>
+		</attribute>
+			
+	</tag>
+</taglib>

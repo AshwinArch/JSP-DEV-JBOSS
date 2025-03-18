@@ -1,0 +1,10 @@
+<struts-config>
+		
+		
+		<action-mappings>
+				<action path="/welcome" forward="/home.jsp"/>
+		</action-mappings>	
+		
+
+		<message-resources parameter="english.messages"/>
+</struts-config>

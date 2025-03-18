@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?> 
+<!DOCTYPE struts-config PUBLIC 
+"-//Apache Software Foundation//DTD Struts Configuration 1.1//EN" 
+"http://jakarta.apache.org/struts/dtds/struts-config_1_1.dtd"> 
+
+<struts-config>
+				
+		<form-beans>
+    			<form-bean name="login" type="com.ash.loginform"/>
+    			<form-bean name="regis" type="com.ash.RegForm"/>
+		</form-beans>
+	
+		<action-mappings>
+				<action path="/welcome" forward="/home.jsp"/>
+		
+				<action path="/login" name="login" input="/home.jsp" type="com.ash.login" >
+		    			<forward name="mech" path="/mech.jsp"/>
+		    			<forward name="elec" path="/elec.jsp"/>
+		    			<forward name="soft" path="/soft.jsp"/>
+		    			<forward name="failure" path="/failure.jsp"/>
+    			</action>
+		
+				<action path="/reg" name="regis" input="/registration.jsp" type="com.ash.RegAction" >
+					<forward name="success" path="/success.jsp"/>
+					<forward name="failure" path="/failure1.jsp"/>
+				</action>
+	
+		</action-mappings>
+		
+			<message-resources parameter="english.messages"/>
+		
+
+</struts-config>
+
+		

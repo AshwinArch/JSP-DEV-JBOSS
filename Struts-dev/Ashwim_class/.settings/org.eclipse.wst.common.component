@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-modules id="moduleCoreId" project-version="1.5.0">
+    <wb-module deploy-name="Ashwim_class">
+        <wb-resource deploy-path="/" source-path="/WebContent"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <dependent-module archiveName="commons-digester.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-digester/commons-digester">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-fileupload.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-fileupload/commons-fileupload">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="jakarta-oro.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/jakarta-oro/jakarta-oro">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-lang.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-lang/commons-lang">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-logging.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-logging/commons-logging">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="struts.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/struts/struts">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-collections.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-collections/commons-collections">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-validator.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-validator/commons-validator">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <dependent-module archiveName="commons-beanutils.jar" deploy-path="/WEB-INF/lib/" handle="module:/resource/commons-beanutils/commons-beanutils">
+            <dependency-type>uses</dependency-type>
+        </dependent-module>
+        <property name="context-root" value="Ashwim_class"/>
+        <property name="java-output-path"/>
+    </wb-module>
+</project-modules>

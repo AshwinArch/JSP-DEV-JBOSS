@@ -1,0 +1,17 @@
+<tag-lib>
+	<jsp-version>2.0</jsp-version>
+	<tlib-version>1.0</tlib-version>
+	<uri>http://ash.com</uri>
+<tag>
+	<name>numericInput</name>
+	<tag-class>com.ash.NumericTextFieldTag</tag-class>
+		<attribute>
+			<name>type</name>
+			<required>true</required>
+		</attribute>
+		<attribute>
+			<name>name</name>
+			<required>true</required>
+		</attribute>
+</tag>
+</tag-lib>

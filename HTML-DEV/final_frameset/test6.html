@@ -1,0 +1,45 @@
+<form>
+State:
+<select name='state' onchange="populateDistricts()">
+<option value='pls'>Pls Select</option>
+<option value='kar'>Karnataka</option>
+<option value='ap'>Andhra</option>
+<option value='tn'>Tamilnadu</option>
+</select>
+<div id="kar" style="visibility:hidden">
+District:
+
+<select name='district' onclick="checkStateSelection()">
+<option value='pls' >Pls. Select D</option>
+<option value="blr">Bangalore</option>
+<option value="mys">Mysore</option>
+<option value="ballary">Ballary</option>
+</select>
+</div>
+
+<div id="ap" style="visibility:hidden">
+District:
+
+<select name='district' onclick="checkStateSelection()">
+<option value='pls' >Pls. Select State</option>
+<option value="hyd">Hyderabad</option>
+<option value="wr">Warangal</option>
+<option value="md">Medak</option>
+</select>
+</div>
+
+<div id="tn" style="visibility:hidden">
+District:
+
+<select name='district' onclick="checkStateSelection()">
+<option value='pls' >Pls. Select State</option>
+<option value="chn">Chennai</option>
+<option value="sl">Salem</option>
+<option value="nmk">Namakkal</option>
+</select>
+</div>
+
+
+
+</form>
+<script src="validate.js"></script>

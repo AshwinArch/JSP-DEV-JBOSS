@@ -1,0 +1,33 @@
+<script src="validate.js"></script>
+<body onload="selectFirstNameInRegForm()">
+<form action="success.html">
+	First Name:
+	<input type='text' name='firstname' onblur="trim(this)"><br>
+	Password:
+	<input type='password' name='password' onblur="trim(this)"><br>
+	Address:
+	<textarea rows="4" cols="5" name="address" onblur="trim(this)"></textarea><br>
+	Gender:
+	<input type='radio' name='gender' value='m'>Male 
+	<input type='radio' name='gender' value='f'>Female
+	<br>
+	Skills:
+	<input type='checkbox' name='skills' value='c'>C
+	<input type='checkbox' name='skills' value='cpp'>C++ 
+	<input type='checkbox' name='skills' value='java'>Java
+	<input type='checkbox' name='skills' value='sql'>SQL
+	<input type='checkbox' name='skills' value='orcl'>Oracle
+	<br>
+	Latest Education:
+	<select name="education">
+	<option value='pls'>Pls. Select</option>
+	<option value='be'>B.E.</option>
+	<option value='me'>M.E.</option>
+	<option value='bt'>B-tech</option>
+	<option value='mt'>M-Tech</option>
+	<option value='p'>P.hd</option>
+	</select>
+	<br>
+	Resume:
+	<input type='file' name='resume'><br>
+	<input type='submit' onclick='return validateRegistrationForm()'>

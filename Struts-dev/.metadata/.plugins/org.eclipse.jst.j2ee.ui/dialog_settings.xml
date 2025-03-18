@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item value="true" key="J2EE_EXPORT_OVERWRITE"/>
+	<item value="true" key="J2EE_EXPORT_SOURCE"/>
+	<list key="J2EE_IMPORT_null">
+		<item value="C:\Users\Ashwin\Desktop\Wipro\RLL\Ashwin_nur.war"/>
+		<item value="H:\RLL\Ashwin_nur.war"/>
+		<item value="C:\Users\Ashwin\Desktop\Wipro\Ashwin_nur.war"/>
+		<item value="E:\Lara cd\Struts-blank-own.war"/>
+		<item value="E:\Lara cd\Mohit\struts-1.x-and-2.0\jakarta-struts-1.1\jakarta-struts-1.1\jakarta-struts-1.1\webapps\struts-blank.war"/>
+	</list>
+	<list key="J2EE_EXPORT_JST_WEB">
+		<item value="C:\Users\Ashwin\Desktop\Wipro\RLL\wipro@project.war"/>
+		<item value="C:\Users\Ashwin\Desktop\Wipro\RLL\Ashwin_nur1.1.war"/>
+		<item value="C:\Users\Ashwin\Desktop\Wipro\RLL\Ashwin_nur.war"/>
+		<item value="C:\Users\Ashwin\Desktop\Wipro\Ashwin_nur.war"/>
+		<item value="E:\Lara cd\Struts-blank-own.war"/>
+		<item value="E:\Lara cd\Struts-Own-Blank.war"/>
+	</list>
+	<list key="MRU_RUNTIME_STORE">
+		<item value="Apache Tomcat v5.5"/>
+		<item value="NULL_RUNTIME"/>
+	</list>
+</section>
